@@ -41,7 +41,7 @@ export const Footer = () => {
                 className="h-12 mr-3"
               />
               <div>
-                <h3 className="font-['Pacifico'] text-navy text-xl">O'Reilly's</h3>
+                <h3 className="font-['Pacifico'] text-navy text-xl">Wajeeth Sumaiya's</h3>
                 <p className="font-bold text-xs tracking-widest text-navy">BUNGALOW</p>
               </div>
             </div>
