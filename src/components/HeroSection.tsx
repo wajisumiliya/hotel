@@ -100,7 +100,7 @@ export const HeroSection = () => {
             }}
             className="font-['Quicksand'] text-2xl md:text-4xl mb-4 drop-shadow-[0_4px_8px_rgba(0,0,0,0.3)] leading-[1.5] md:leading-[1.4] tracking-widest px-2 font-light uppercase"
           >
-            Welcome to SUWALI(WLS) PARADISE
+            Welcome to WAJEETH SUMAIYA (WLS) PARADISE
           </animated.h1>
           <animated.h2
             style={{
@@ -114,7 +114,7 @@ export const HeroSection = () => {
             }}
             className="font-['Pacifico'] text-4xl md:text-6xl lg:text-7xl mb-6 md:mb-12 drop-shadow-[0_4px_8px_rgba(0,0,0,0.3)] leading-[1.5] md:leading-[1.4] tracking-wide px-2 break-words"
           >
-            WLS's Bungalow
+            WAJEETH SUMAIYA's Bungalow
           </animated.h2>
           <animated.p
             style={descriptionSpring}
@@ -136,7 +136,7 @@ export const HeroSection = () => {
                 shadow-[0_10px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.3)]
                 backdrop-blur-sm hover:tracking-wider"
             >
-              Plan Your Vacation
+              START YOUR TRIP
             </animated.button>
           </animated.div>
         </div>
