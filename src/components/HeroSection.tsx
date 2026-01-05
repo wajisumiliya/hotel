@@ -81,7 +81,7 @@ export const HeroSection = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent rounded-full"></div>
           <img
-            src="/src/assets/logo.png"
+            src="https://ik.imagekit.io/fisjyu9bx/logo.png"
             alt="O'Reilly's Bungalow"
             className="h-full object-contain drop-shadow-lg relative z-10"
           />
