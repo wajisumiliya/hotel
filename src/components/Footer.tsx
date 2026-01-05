@@ -46,7 +46,7 @@ export const Footer = () => {
               </div>
             </div>
             <p className="mt-2 text-sm text-gray-600">
-              © {currentYear} O'Reilly's Bungalow. All rights reserved.
+              © {currentYear} Wajeeth Sumaiya's Bungalow. All rights reserved.
             </p>
           </div>
           
@@ -63,7 +63,7 @@ export const Footer = () => {
                   hover:shadow-[0_0_15px_rgba(222,164,1,0.3)] group"
               >
                 <p className="font-['Quicksand'] font-bold text-navy group-hover:text-gold transition-colors duration-300">
-                  Quadrate Tech Solutions
+                  Liya Tech Solutions
                 </p>
               </div>
             </div>
