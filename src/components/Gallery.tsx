@@ -2,8 +2,9 @@ import { useState, useEffect, useRef } from 'react';
 import { useSpring, animated, config } from '@react-spring/web';
 
 // Image URLs from images.md
-
-
+[
+  src'https://ik.imagekit.io/fazrinphcc/OReilly/WhatsApp%20Image%202025-03-08%20at%2016.06.27_15c9b0c5.jpg?updatedAt=1741468432007'
+];
 // Modal component for displaying full-sized images
 interface ImageModalProps {
   isOpen: boolean;
