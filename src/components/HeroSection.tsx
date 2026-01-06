@@ -81,8 +81,8 @@ export const HeroSection = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent rounded-full"></div>
           <img
-            src="https://ik.imagekit.io/fisjyu9bx/logo.png"
-            alt="O'Reilly's Bungalow"
+            src="https://ik.imagekit.io/fisjyu9bx/1767693233138.jpg"
+            alt="Wajeeth Sumaiya's Bangalow"
             className="h-full object-contain drop-shadow-lg relative z-10"
           />
         </animated.div>
