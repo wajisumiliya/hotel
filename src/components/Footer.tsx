@@ -36,8 +36,8 @@ export const Footer = () => {
           <div className="mb-6 md:mb-0 text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start">
               <img 
-                src="https://ik.imagekit.io/fisjyu9bx/logo.png" 
-                alt="O'Reilly's Bungalow" 
+                src="https://ik.imagekit.io/fisjyu9bx/1767693233138.jpg" 
+                alt="Wajeeth Sumaiya's Bungalow" 
                 className="h-12 mr-3"
               />
               <div>
