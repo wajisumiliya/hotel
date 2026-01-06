@@ -48,21 +48,7 @@ export const LocationMap: React.FC = () => {
           Our Location
         </animated.h2>
         
-        <animated.div 
-          style={mapSpring}
-          className="w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-xl"
-        >
-          <div className="relative pb-[56.25%] h-0">
-            <iframe 
-              src="https://maps.app.goo.gl/rk81jDVeGyd2SBq57"
-              allowFullScreen 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-              title="O'Reilly Resort Location"
-              className="rounded-lg"
-            />
-          </div>
-        </animated.div>
+        
         
         <animated.div 
           style={mapSpring}
