@@ -1,9 +1,9 @@
 import { Navigation } from './components/Navigation';
 import { HeroSection } from './components/HeroSection';
-import { WinterStaySection } from './components/WinterStaySection';
-import { FeatureHighlights } from './components/FeatureHighlights';
+//import { WinterStaySection } from './components/WinterStaySection';
+//import { FeatureHighlights } from './components/FeatureHighlights';
 import { BookingSection } from './components/BookingSection';
-import { Gallery } from './components/Gallery';
+//import { Gallery } from './components/Gallery';
 import { LocationMap } from './components/LocationMap';
 // LocalAssetsGallery component has been removed
 import { Footer } from './components/Footer';
