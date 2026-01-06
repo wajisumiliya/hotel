@@ -2,9 +2,22 @@ import { useState, useEffect, useRef } from 'react';
 import { useSpring, animated, config } from '@react-spring/web';
 
 // Image URLs from images.md
-[
-  src'https://ik.imagekit.io/fazrinphcc/OReilly/WhatsApp%20Image%202025-03-08%20at%2016.06.27_15c9b0c5.jpg?updatedAt=1741468432007'
+const galleryImages = [
+  // Original images
+  { src: 'https://ik.imagekit.io/fazrinphcc/OReilly/image-1-1534X1024.jpeg?updatedAt=1744662350489', name: 'landscape1.jpeg' },
+  { src: 'https://ik.imagekit.io/fazrinphcc/OReilly/image-4-1024X1024.jpeg?updatedAt=1744662350333', name: 'square1.jpeg' },
+  { src: 'https://ik.imagekit.io/fazrinphcc/OReilly/image-2-1534X1024.jpeg?updatedAt=1744662350269', name: 'landscape2.jpeg' },
+  { src: 'https://ik.imagekit.io/fazrinphcc/OReilly/image-2-1024X1024.jpeg?updatedAt=1744662350273', name: 'square2.jpeg' },
+  { src: "https://ik.imagekit.io/fazrinphcc/OReilly/WhatsApp%20Image%202025-03-08%20at%2016.06.27_15c9b0c5.jpg?updatedAt=1741468432007", name: "resort_view_1.jpg" },
+  { src: "https://ik.imagekit.io/fazrinphcc/OReilly/WhatsApp%20Image%202025-03-08%20at%2016.06.26_32424aa8.jpg?updatedAt=1741468431993", name: "resort_view_2.jpg" },
+  { src: "https://ik.imagekit.io/fazrinphcc/OReilly/WhatsApp%20Image%202025-03-08%20at%2016.06.28_2526b803.jpg?updatedAt=1741468431968", name: "resort_view_3.jpg" },
+  { src: "https://ik.imagekit.io/fazrinphcc/OReilly/WhatsApp%20Image%202025-03-08%20at%2016.06.27_2c7ea83c.jpg?updatedAt=1741468431870", name: "resort_view_4.jpg" },
+  { src: "https://ik.imagekit.io/fazrinphcc/OReilly/WhatsApp%20Image%202025-03-08%20at%2016.06.27_5739e4e6.jpg?updatedAt=1741468431819", name: "resort_view_5.jpg" },
+  { src: "https://ik.imagekit.io/fazrinphcc/OReilly/WhatsApp%20Image%202025-03-08%20at%2016.06.28_6089c75c.jpg?updatedAt=1741468431789", name: "resort_view_6.jpg" },
+  { src: "https://ik.imagekit.io/fazrinphcc/OReilly/WhatsApp%20Image%202025-03-08%20at%2016.06.27_e12b9650.jpg?updatedAt=1741468431715", name: "resort_view_7.jpg" },
+  { src: "https://ik.imagekit.io/fazrinphcc/OReilly/external_resort_view.jpg?updatedAt=1741539261861", name: "external_resort_view.jpg" }
 ];
+
 // Modal component for displaying full-sized images
 interface ImageModalProps {
   isOpen: boolean;
