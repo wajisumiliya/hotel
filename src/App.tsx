@@ -15,15 +15,8 @@ function App() {
       <section id="hero">
         <HeroSection />
       </section>
-      <section id="winter-stay">
-        <WinterStaySection />
-      </section>
-      <section id="features">
-        <FeatureHighlights />
-      </section>
-      <section id="gallery">
-        <Gallery />
-      </section>
+      
+      
       <section id="location">
         <LocationMap />
       </section>
